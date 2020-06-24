@@ -10,3 +10,123 @@ $red-orange-color-wheel: #ff531fff;
 $blue-ncs: #1688b6ff;
 $snow: #fffbffff;
 */
+
+.amarillo{
+color: #ffc60aff;
+}
+
+.negro {
+color: #0a0c08ff ;
+}
+
+.azul {
+color: #1688b6ff;
+}
+
+.gris {
+color: #717568ff;
+}
+
+.fondogris {
+    background-color: #717568ff;
+    }
+
+.naranjo {
+color: #ff531fff;
+}
+
+.fondonaranjo {
+   background-color: #ff531fff;
+    }
+
+.blanco {
+color: #fffbffff;
+}
+
+.fondo {
+background-color: #ffc60aff;
+}
+
+.logo {
+ width: 50px;
+}
+
+.textolight {
+    font-weight: 300;
+}
+
+.textoregular {
+    font-weight: 500;
+}
+
+.textobold {
+    font-weight: 800;
+}
+
+.hero-section {
+background-image: url('../img/bg-hero.jpg');
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+height: 100vh;
+color: #ffffff;
+}
+
+.titulo {
+    color: #fffbffff;
+    text-align: right;
+    padding-top: 600px;
+    font-weight: 800;
+    font-size: 50pt;
+}
+
+
+.subtitulo {
+    color: #fffbffff;
+    text-align: right;
+    font-weight: 500;
+    font-size: 30pt;
+    
+}
+
+.fondo1 {
+    background-color: #1688b6ff;
+    height: 500px;
+    
+}
+
+.titulosm {
+
+}
+
+.sobremi {
+
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .columna {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
