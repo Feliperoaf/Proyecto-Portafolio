@@ -15,6 +15,11 @@ $snow: #fffbffff;
 color: #ffc60aff;
 }
 
+.fondoamarillo{
+    background-color: #ffc60aff;
+    }
+    
+
 .negro {
 color: #0a0c08ff ;
 }
@@ -63,6 +68,10 @@ background-color: #ffc60aff;
     font-weight: 800;
 }
 
+.pt {
+    padding-top: 3rem;
+}
+
 .hero-section {
 background-image: url('../img/bg-hero.jpg');
 background-size: cover;
@@ -91,17 +100,17 @@ color: #ffffff;
 
 .fondo1 {
     background-color: #1688b6ff;
-    height: 500px;
     
 }
 
-.titulosm {
+a:link {
+    color: #0a0c08ff;
+  }
+  
+  a:visited {
+    color: #0a0c08ff;
+  }
 
-}
-
-.sobremi {
-
-}
 
 .galeria {
     display: flex;
@@ -109,20 +118,18 @@ color: #ffffff;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+
   .columna {
     flex: 25%;
-    max-width: 25%;
     padding: 0 4px;
   }
   
-  .column img {
+  .columna img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -130,3 +137,6 @@ color: #ffffff;
     }
   }
   
+  .mfooter {
+margin-top: -23px;
+  }
